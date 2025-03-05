@@ -1,0 +1,29 @@
+package application;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.TextField;
+import javafx.scene.text.Text;
+
+public class Controller {
+	
+    @FXML
+    private TextField locationTxt;
+    private Text temperature;
+    private Text humidity;
+    private Text wind;
+    private Text cl;
+    
+
+    private String locationSvd = ""; 
+
+    @FXML
+    private void handleSave() {
+    	locationSvd = locationTxt.getText();
+        System.out.println("Text salvat: " + locationSvd); 
+        locationTxt.clear(); 
+    }
+
+    public String getSavedText() {
+        return locationSvd;
+    }
+}

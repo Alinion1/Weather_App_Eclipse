@@ -1,0 +1,22 @@
+package application;
+
+import javafx.fxml.FXML;
+import javafx.scene.control.TextField;
+
+public class Controller {
+    @FXML
+    private TextField locatieTxt;
+
+    private String locatieSvd = ""; 
+
+    @FXML
+    private void handleSave() {
+    	locatieSvd = locatieTxt.getText();
+        System.out.println("Text salvat: " + locatieSvd); 
+        locatieTxt.clear(); 
+    }
+
+    public String getSavedText() {
+        return locatieSvd;
+    }
+}

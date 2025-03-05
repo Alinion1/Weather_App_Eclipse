@@ -1,0 +1,14 @@
+INDEX VERSION 1.134+C:\Users\Raileanu Alin\Desktop\Weather_App_Eclipse\.metadata\.plugins\org.eclipse.jdt.core
+3113419761.index
+1865797976.index
+3566061628.index
+3727217147.index
+989209498.index
+1616406458.index
+1141652910.index
+3976345283.index
+3783836120.index
+580432327.index
+97866792.index
+1643371010.index
+1288848795.index

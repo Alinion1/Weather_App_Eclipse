@@ -1,0 +1,5 @@
+module Weather_App {
+	requires javafx.controls;
+	
+	opens application to javafx.graphics, javafx.fxml;
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="anch" prefHeight="500.0" prefWidth="411.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Rectangle arcHeight="70.0" arcWidth="70.0" fill="#c5f3ff" focusTraversable="true" height="434.0" layoutX="31.0" layoutY="31.0" opacity="0.28" stroke="RED" width="344.0" />
+      <TextField fx:id="locationTxt" layoutX="60.0" layoutY="63.0" opacity="0.75" prefHeight="40.0" prefWidth="233.0" promptText="Search" style="-fx-background-radius: 50;">
+         <font>
+            <Font size="11.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </TextField>
+      <Button contentDisplay="CENTER" layoutX="301.0" layoutY="63.0" mnemonicParsing="false" onAction="#handleSave" opacity="0.7" prefHeight="40.0" prefWidth="42.0" style="-fx-background-radius: 50000; -fx-background-color: skyblue;" text="⌕" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Text fx:id="temperature" fill="WHITE" layoutX="93.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="22" textAlignment="CENTER" wrappingWidth="206.08837890625">
+         <font>
+            <Font size="70.0" />
+         </font>
+      </Text>
+      <Text fx:id="humidity" fill="WHITE" layoutX="78.0" layoutY="406.0" strokeType="OUTSIDE" strokeWidth="0.0" text="">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text fx:id="wind" fill="WHITE" layoutX="243.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" text="">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="clText" fill="WHITE" layoutX="93.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text fx:id="emoji" fill="WHITE" layoutX="242.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text id="\\%" fill="WHITE" layoutX="74.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Humidity">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text id="ms" fill="WHITE" layoutX="244.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wind">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
